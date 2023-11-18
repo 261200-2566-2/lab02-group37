@@ -1,17 +1,49 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.print("Hello and welcome!");
+        AirPurifier a = new AirPurifier("PRO","001",280.5,110);
+        AirPurifier b = new AirPurifier("NOOB","002",220.2,100);
+        AirPurifier c = new AirPurifier("NOOB","003",220.2,100);
+        a.showAllValue();
+        b.showAllValue();
+        c.showAllValue();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+//        ---Test-TurnOn()---
+//        System.out.println("Test-TurnOn()");
+//        a.turnOn();
+//        b.turnOn();
+//        c.turnOn();
+//        a.showAllValue();
+//        b.showAllValue();
+//        c.showAllValue();
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+//        ---Test-TurnOff()---
+//        System.out.println("Test-TurnOff()");
+//        a.turnOff();
+//        b.turnOff();
+//        c.turnOff();
+//        a.showAllValue();
+//        b.showAllValue();
+//        c.showAllValue();
+
+//        ---Test-getPM()---
+//        System.out.println("Test-getPM()");
+//        System.out.printf("PM_001 = %.2f%n",a.getPM());
+//        System.out.printf("PM_002 = %.2f%n",b.getPM());
+//        System.out.printf("PM_003 = %.2f%n",c.getPM());
+
+//        ---Test-setFanSpeed(double)---
+//        System.out.println("Test-setFanSpeed(double)");
+//        a.setFanSpeed(99.99);
+//        b.setFanSpeed(77.77);
+//        c.setFanSpeed(66.66);
+//        a.showAllValue();
+//        b.showAllValue();
+//        c.showAllValue();
+
+//        ---Test-mostPopularModel()---
+//        System.out.println(AirPurifier.mostPopularModel());
+
+//        ---Test-showModelCount()---
+//          AirPurifier.showModelCount();
     }
 }
